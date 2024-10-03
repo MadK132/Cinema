@@ -5,7 +5,7 @@ public class CinemaConfig {
     private String operatingHours;
 
     private CinemaConfig() {
-        // Private constructor to prevent instantiation
+
     }
 
     public static synchronized CinemaConfig getInstance() {
@@ -23,5 +23,4 @@ public class CinemaConfig {
         return cinemaName;
     }
 
-    // Other configuration setters and getters
 }
